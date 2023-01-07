@@ -20,6 +20,15 @@ So, based of above as predictors are used fllowed variables:
 - Dallas Fed Manufacturing Index
 - Datetime inidcatores: hour, day, week, month, working day
 
+
+## Data Source
+**- Demand data:***
+Demand Data were downloaded from ...
+***- Wether data:***
+Wether Data
+***- Real GPD data:***
+Real GPD vvv
+
 ## Forecast were divided for 2 period:
 - pred Covid time
 - post Covid (indlucid Covid time in training)
@@ -30,12 +39,3 @@ So, based of above as predictors are used fllowed variables:
 - ANN
 - SVM
 - drzewa
-
-## Data Source
-### - Demand data:
-Demand Data were downloaded from ...
-### - Wether data:
-Wether Data
-### - Real GPD data:
-Real GPD vvv
-
