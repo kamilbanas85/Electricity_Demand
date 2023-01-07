@@ -1,8 +1,11 @@
 # Electricity Demand Forecasting for Austin, TX
 
+## About
 A project presents forecasting an electricity demand in Texas. A focuse was made on a XshortXlongX-term horizont. A muliple regresion models approach were used with few independent variables.
 
-## An electicity demand is influnced by;
+## Predcitors
+
+An electicity demand is influnced by;
 - weather data (air-conditioning, electicity heating)
 - population number
 - economic activity - economy growth, etc...
@@ -10,7 +13,7 @@ A project presents forecasting an electricity demand in Texas. A focuse was made
 - working day - industry use more
 - period of year - during hlodiay industry use less, etc...
 
-## So, based of above as predictors are used fllowed variables:
+So, based of above as predictors are used fllowed variables:
 - weather data: air_temperature 	humidity 	sky_cover 	wind_speed
 - Population
 - Real GDP
@@ -28,14 +31,11 @@ A project presents forecasting an electricity demand in Texas. A focuse was made
 - SVM
 - drzewa
 
-## 1. Data Source
-    * ### Demand Data:
-       Demand Data were downloaded from ...
-    
-    * ### 
-
-## 2. item 3
-    ```
-    Code block
-    ```
+## Data Source
+### - Demand data:
+Demand Data were downloaded from ...
+### - Wether data:
+Wether Data
+### - Real GPD data:
+Real GPD vvv
 
