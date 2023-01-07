@@ -1,6 +1,6 @@
 # Electricity Demand Forecasting for Austin, TX
 
-A muliple regresion models were used to predcit XshortXlongX-term electricity demand in Texas.
+A project presents forecasting an electricity demand in Texas. A focuse was made on a XshortXlongX-term horizont. A muliple regresion models approach were used with few independent variables.
 
 ## An electicity demand is influnced by;
 - weather data (air-conditioning, electicity heating)
