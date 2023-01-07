@@ -2,7 +2,7 @@
 
 A muliple regresion models were used to predcit XshortXlongX-term electricity demand in Texas.
 
-An electicity demand is influnced by;
+## An electicity demand is influnced by;
 - weather data (air-conditioning, electicity heating)
 - population number
 - economic activity - economy growth, etc...
@@ -10,7 +10,7 @@ An electicity demand is influnced by;
 - working day - industry use more
 - period of year - during hlodiay industry use less, etc...
 
-So, based of above as predictors are used fllowed variables:
+## So, based of above as predictors are used fllowed variables:
 - weather data: air_temperature 	humidity 	sky_cover 	wind_speed
 - Population
 - Real GDP
@@ -27,3 +27,13 @@ So, based of above as predictors are used fllowed variables:
 - ANN
 - SVM
 - drzewa
+
+
+1. Data Source
+    * ## ffffff
+    ```
+    Code block
+    ```
+3. item 3
+
+
