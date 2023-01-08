@@ -24,24 +24,24 @@ So, based of above as predictors are used fllowed variables:
 ## Data Source
 **- Demand data:***
 
-    Demand data for Texas were fatched from EIA using API (https://www.eia.gov/opendata/v1/qb.php?category=3389948&sdid=EBA.TEX-ALL.D.H)
+    The Demand data for Texas were fetched from EIA using API (https://www.eia.gov/opendata/v1/qb.php?category=3389948&sdid=EBA.TEX-ALL.D.H).
 
 ***- Wether data:***
 
-    Wether data were taken from Open Meteo web using API (https://open-meteo.com/)
+    The Wether data were fetched from Open Meteo web using API (https://open-meteo.com/).
 
 ***- Real GPD data:***
 
-    Real Gross Domestic Product (All Industry Total in Texas) from Federal Reserve Economic Data (FRED) using API (https://fred.stlouisfed.org/series/TXRQGSP)
+    The Real Gross Domestic Product (All Industry Total in Texas) data were fetched from Federal Reserve Economic Data (FRED) using API (https://fred.stlouisfed.org/series/TXRQGSP).
 
 
 ***- Population data:***
 
-    Population in Texas from Federal Reserve Economic Data (FRED) using API (https://fred.stlouisfed.org/series/TXPOP)
+    The Population in Texas data were fetched from Federal Reserve Economic Data (FRED) using API (https://fred.stlouisfed.org/series/TXPOP).
 
 ***- Dallas Fed Manufacturing Index:***
 
-    Dallas Fed Manufacturing Index from Investing.com using investpy python library
+    The Dallas Fed Manufacturing Index data were fetched from Investing.com using 'investpy' python library.
     
 ## Forecast were divided for 2 period:
 - pred Covid time
