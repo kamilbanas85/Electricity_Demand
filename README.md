@@ -26,9 +26,9 @@ In a industry sector loead peak is during a working hours through working day. T
 For the Texas region, summer and winter workig day load profiles are presented below:
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/53495965/211215281-2b45f65d-ce00-421d-b32d-3cf7df79b0fa.png" width=70% height=70%>
+    <img src="https://user-images.githubusercontent.com/53495965/211215364-f5798cb3-3d4a-4ddf-be13-c2016ad99cdd.png" width=70% height=70%>
 >
-    
+
 Fig. Summer and winter load profile for Texas.
 
 Therefore, the atmospheric factor is one of the main influencing factors.
