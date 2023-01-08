@@ -8,6 +8,7 @@ A project presents forecasting an electricity demand in Texas. A focuse was made
 A electricity is used in all area of our life. In residential is used to air-conditioning, heating, and to power house equipment, such as: TV, washing machine, kitchen devices, etc. In industry during production process and also to air-conditioning. Therefore, the atmospheric factor is one of the main influencing factors. 
 
 ![image](https://user-images.githubusercontent.com/53495965/211201091-a3de9f5e-6fcb-40c1-8d63-d0b8c12dbe33.png)
+
 Fig. Electricity demand daily profile according with season (Source: https://learn.pjm.com/three-priorities/keeping-the-lights-on/how-energy-use-varies).
 
 
