@@ -9,7 +9,6 @@ A electricity is used in all area of our life. In residential is used to air-con
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/53495965/211201091-a3de9f5e-6fcb-40c1-8d63-d0b8c12dbe33.png" width=80% height=80%>
->
     
 Fig. Electricity demand daily profile according with season (Source: https://learn.pjm.com/three-priorities/keeping-the-lights-on/how-energy-use-varies).
 
