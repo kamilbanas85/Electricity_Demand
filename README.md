@@ -26,7 +26,7 @@ In a industry sector loead peak is during a working hours through working day. T
 For the Texas region, summer and winter workig day load profiles are presented below:
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/53495965/211215131-4191fb07-c06c-4bc4-95c4-a32d5213703a.png" width=70% height=70%>
+    <img src="https://user-images.githubusercontent.com/53495965/211215281-2b45f65d-ce00-421d-b32d-3cf7df79b0fa.png" width=70% height=70%>
 >
     
 Fig. Summer and winter load profile for Texas.
