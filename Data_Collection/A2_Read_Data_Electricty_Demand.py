@@ -4,12 +4,10 @@ import matplotlib.pyplot as plt
 import datetime
 import os
 
-from A1_TakeEIAdataBySeriesID import *
-
-
 MainDirectory = os.path.abspath(os.path.dirname(__file__))
 os.chdir(MainDirectory)
 
+from A1_TakeEIAdataBySeriesID import *
 
 
 #%% Read EIA data
