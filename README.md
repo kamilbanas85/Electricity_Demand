@@ -22,20 +22,20 @@ So, based of above as predictors are used fllowed variables:
 
 
 ## Data Sources
-- ### Demand data:
+- ### Electricity Demand in Texas:
 
     The Demand data for Texas were fetched from EIA using API (https://www.eia.gov/opendata/v1/qb.php?category=3389948&sdid=EBA.TEX-ALL.D.H). The script:  
 
-- ### Wether data:
+- ### Wether:
 
     The Wether data were fetched from Open Meteo web using API (https://open-meteo.com/).
 
-- ### Real GPD data:
+- ### Real GPD:
 
     The Real Gross Domestic Product (All Industry Total in Texas) data were fetched from Federal Reserve Economic Data (FRED) using API (https://fred.stlouisfed.org/series/TXRQGSP).
 
 
-- ### Population data:
+- ### Population:
 
     The Population in Texas data were fetched from Federal Reserve Economic Data (FRED) using API (https://fred.stlouisfed.org/series/TXPOP).
 
