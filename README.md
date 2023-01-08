@@ -49,7 +49,7 @@ So, based of above as predictors are used fllowed variables:
 ## Data Sources:
 - ### Electricity Demand in Texas:
 
-    The Demand data for Texas were fetched from EIA using API (https://www.eia.gov/opendata/v1/qb.php?category=3389948&sdid=EBA.TEX-ALL.D.H). The script:  
+    The Demand data for Texas were fetched from EIA using API (https://www.eia.gov/opendata/v1/qb.php?category=3389948&sdid=EBA.TEX-ALL.D.H). The script: https://github.com/kamilbanas85/Electricity_Demand/blob/main/Data_Collection/A2_Read_Data_Electricty_Demand.py 
 
 - ### Wether:
 
