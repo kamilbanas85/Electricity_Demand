@@ -11,12 +11,17 @@ A electricity is used in all area of our life. In residential is used to air-con
 
 Fig. Electricity demand daily profile according with season (Source: https://learn.pjm.com/three-priorities/keeping-the-lights-on/how-energy-use-varies).
 
+![image](https://user-images.githubusercontent.com/53495965/211203111-c5ac464b-cd38-4c80-9430-5dcb941981c9.png)
+
+Fig. Comparision of daily load profiles for seasons.
+
 A electricity usage in residential starts increasing in the morning around 5 a.m. People begin getting ready for work and school and, on a cold morning, turn the heat up, turn on the hot water or turn on the coffee maker. In the winter, usage typically declines between 8 a.m. and 5 p.m. once buildings have warmed up and outside temperatures begin to rise. During a summer peple turn on air-condition. At 5 p.m., when people are getting home, there is another spike in energy use as lights and appliances are turned on at multiple homes and outside temperatures decrease as the sun sets. Load starts dropping off again when people power down to go to bed for the night.
 
 In a industry sector loead peak is during a working hours through working day. The value of load depends on season, bacouse air-condiction usege in offcie.
 
 For the Texas region, summer and winter workig day load profiles are presented below:
 
+Fig. Summer and winter load profile for Texas.
 
 Therefore, the atmospheric factor is one of the main influencing factors.
 
