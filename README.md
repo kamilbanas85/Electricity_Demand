@@ -7,14 +7,17 @@ A project presents forecasting an electricity demand in Texas. A focuse was made
 
 A electricity is used in all area of our life. In residential is used to air-conditioning, heating, and to power house equipment, such as: TV, washing machine, kitchen devices, etc. In industry during production processes and also to air-conditioning. In serveices to power a devices, etc.  
 
-<img src="https://user-images.githubusercontent.com/53495965/211201091-a3de9f5e-6fcb-40c1-8d63-d0b8c12dbe33.png" width=80% height=80%>
-
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/53495965/211201091-a3de9f5e-6fcb-40c1-8d63-d0b8c12dbe33.png" width=80% height=80%>
+>
+    
 Fig. Electricity demand daily profile according with season (Source: https://learn.pjm.com/three-priorities/keeping-the-lights-on/how-energy-use-varies).
+
 <p align="center">
     <img src="https://user-images.githubusercontent.com/53495965/211203111-c5ac464b-cd38-4c80-9430-5dcb941981c9.png" width=50% height=50%>
 >
     
-Fig. Comparision of daily load profiles for seasons.
+Fig. Comparison of daily load profiles for year seasons.
 
 A electricity usage in residential starts increasing in the morning around 5 a.m. People begin getting ready for work and school and, on a cold morning, turn the heat up, turn on the hot water or turn on the coffee maker. In the winter, usage typically declines between 8 a.m. and 5 p.m. once buildings have warmed up and outside temperatures begin to rise. During a summer peple turn on air-condition. At 5 p.m., when people are getting home, there is another spike in energy use as lights and appliances are turned on at multiple homes and outside temperatures decrease as the sun sets. Load starts dropping off again when people power down to go to bed for the night.
 
