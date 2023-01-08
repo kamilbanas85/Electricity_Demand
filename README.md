@@ -21,10 +21,10 @@ So, based of above as predictors are used fllowed variables:
 - Datetime inidcatores: hour, day, week, month, working day
 
 
-## Data Source
+## Data Sources
 - ### Demand data:
 
-    The Demand data for Texas were fetched from EIA using API (https://www.eia.gov/opendata/v1/qb.php?category=3389948&sdid=EBA.TEX-ALL.D.H).
+    The Demand data for Texas were fetched from EIA using API (https://www.eia.gov/opendata/v1/qb.php?category=3389948&sdid=EBA.TEX-ALL.D.H). The script:  
 
 - ### Wether data:
 
