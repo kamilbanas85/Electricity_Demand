@@ -14,7 +14,6 @@ Fig. Electricity demand daily profile according with season (Source: https://lea
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/53495965/211203111-c5ac464b-cd38-4c80-9430-5dcb941981c9.png" width=50% height=50%>
->
     
 Fig. Comparison of daily load profiles for year seasons.
 
@@ -26,7 +25,6 @@ For the Texas region, summer and winter workig day load profiles are presented b
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/53495965/211215364-f5798cb3-3d4a-4ddf-be13-c2016ad99cdd.png" width=70% height=70%>
->
 
 Fig. Summer and winter load profile for Texas.
 
