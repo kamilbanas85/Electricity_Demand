@@ -39,14 +39,14 @@ An electicity demand is influnced by;
 - period of year - during hlodiay industry use less, etc...
 
 So, based of above as predictors are used fllowed variables:
-- weather data: air_temperature 	humidity 	sky_cover 	wind_speed
+- Weather data: air temperature, humidity, sky cover, wind speed
 - Population
 - Real GDP
 - Dallas Fed Manufacturing Index
-- Datetime inidcatores: hour, day, week, month, working day
+- Datetime indicatores: hour, day, week, month, working day
 
 
-## Data Sources
+## Data Sources:
 - ### Electricity Demand in Texas:
 
     The Demand data for Texas were fetched from EIA using API (https://www.eia.gov/opendata/v1/qb.php?category=3389948&sdid=EBA.TEX-ALL.D.H). The script:  
