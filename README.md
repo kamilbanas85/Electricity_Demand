@@ -49,28 +49,29 @@ So, based of above as predictors are used fllowed variables:
 ## Data Sources:
 - ### Electricity Demand in Texas:
 
-    The Demand data for Texas were fetched from EIA using API (https://www.eia.gov/opendata/v1/qb.php?category=3389948&sdid=EBA.TEX-ALL.D.H). The script: https://github.com/kamilbanas85/Electricity_Demand/blob/main/Data_Collection/A2_Read_Data_Electricty_Demand.py 
+    The Demand data for Texas were fetched from EIA using API (https://www.eia.gov/opendata/v1/qb.php?category=3389948&sdid=EBA.TEX-ALL.D.H).  
+    The script: https://github.com/kamilbanas85/Electricity_Demand/blob/main/Data_Collection/A2_Read_Data_Electricty_Demand.py 
 
 - ### Wether:
 
-    The Wether data were fetched from Open Meteo web using API (https://open-meteo.com/).\
+    The Wether data were fetched from Open Meteo web using API (https://open-meteo.com/).  
     The script: https://github.com/kamilbanas85/Electricity_Demand/blob/main/Data_Collection/A3_Read_API_Weather_OpenMeteo.py
 
 - ### Real GPD:
 
-    The Real Gross Domestic Product (All Industry Total in Texas) data were fetched from Federal Reserve Economic Data (FRED) using API (https://fred.stlouisfed.org/series/TXRQGSP).\
+    The Real Gross Domestic Product (All Industry Total in Texas) data were fetched from Federal Reserve Economic Data (FRED) using API (https://fred.stlouisfed.org/series/TXRQGSP).  
     The script: https://github.com/kamilbanas85/Electricity_Demand/blob/main/Data_Collection/A4_Read_API_Teaxas_GDP_and_Population.py
 
 
 - ### Population:
 
-    The Population in Texas data were fetched from Federal Reserve Economic Data (FRED) using API (https://fred.stlouisfed.org/series/TXPOP).\
+    The Population in Texas data were fetched from Federal Reserve Economic Data (FRED) using API (https://fred.stlouisfed.org/series/TXPOP).  
     The script: https://github.com/kamilbanas85/Electricity_Demand/blob/main/Data_Collection/A4_Read_API_Teaxas_GDP_and_Population.py
 
 
 - ### Dallas Fed Manufacturing Index:
 
-    The Dallas Fed Manufacturing Index data were fetched from Investing.com using 'investpy' python library.\
+    The Dallas Fed Manufacturing Index data were fetched from Investing.com using 'investpy' python library.  
     The script: https://github.com/kamilbanas85/Electricity_Demand/blob/main/Data_Collection/A5_Read_Dallas_Fed_Manufacturing_Index.py
     
 ## Forecast were divided for 2 period:
