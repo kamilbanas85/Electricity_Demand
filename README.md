@@ -11,7 +11,7 @@ A electricity is used in all area of our life. In residential is used to air-con
 
 Fig. Electricity demand daily profile according with season (Source: https://learn.pjm.com/three-priorities/keeping-the-lights-on/how-energy-use-varies).
 
-![image](https://user-images.githubusercontent.com/53495965/211203111-c5ac464b-cd38-4c80-9430-5dcb941981c9.png)
+![image](https://user-images.githubusercontent.com/53495965/211203111-c5ac464b-cd38-4c80-9430-5dcb941981c9.png = 250x250)
 
 Fig. Comparision of daily load profiles for seasons.
 
