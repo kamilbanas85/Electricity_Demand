@@ -22,7 +22,7 @@ So, based of above as predictors are used fllowed variables:
 
 
 ## Data Source
-**- Demand data:***
+- Demand data:
 
     The Demand data for Texas were fetched from EIA using API (https://www.eia.gov/opendata/v1/qb.php?category=3389948&sdid=EBA.TEX-ALL.D.H).
 
