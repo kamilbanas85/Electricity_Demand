@@ -84,3 +84,7 @@ So, based of above as predictors are used fllowed variables:
 - ANN
 - SVM
 - drzewa
+    
+    - Covid prifile
+https://www.eia.gov/todayinenergy/detail.php?id=43295#tab1
+    
