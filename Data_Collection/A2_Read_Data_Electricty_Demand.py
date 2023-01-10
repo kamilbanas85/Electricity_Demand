@@ -4,10 +4,12 @@ import matplotlib.pyplot as plt
 import datetime
 import os
 
+from A1_TakeEIAdataBySeriesID import *
+
+
 MainDirectory = os.path.abspath(os.path.dirname(__file__))
 os.chdir(MainDirectory)
 
-from A1_TakeEIAdataBySeriesID import *
 
 
 #%% Read EIA data
@@ -27,6 +29,10 @@ from A1_TakeEIAdataBySeriesID import *
 ## 
 ## https://www.eia.gov/opendata/qb.php?category=3389948&sdid=EBA.TEX-ALL.D.H
 
+## Demand for Texas (region), hourly - local time:
+##   series_id=EBA.TEX-ALL.D.HL
+## 
+## https://www.eia.gov/opendata/v1/qb.php?category=4670549
 
 ## Demand for California (region), hourly - UTC time:
 ##   series_id=EBA.CAL-ALL.D.H
@@ -34,29 +40,19 @@ from A1_TakeEIAdataBySeriesID import *
 ## https://www.eia.gov/opendata/qb.php?category=3389936&sdid=EBA.CAL-ALL.D.H
 
 
-### Take data based on series id:
-    
+
+#%% Take data for Texas local Time
+  
 api_key = "XXX"
-series_ID='EBA.US48-ALL.D.H'
+series_ID ='EBA.TEX-ALL.D.HL'
 
-ElectricityDemandUSA_Main = EIAtakeDataBySeriesID(api_key, series_ID)
-
-ElectricityDemandUSA = ElectricityDemandUSA_Main.TakeTimeSeries()
-
-
-#ElectricityDemandUSA.plot()
-
-#%% Take data for Texas
-
-series_ID='EBA.TEX-ALL.D.H'
 
 ElectricityDemandTexas_Main = EIAtakeDataBySeriesID(api_key, series_ID)
-
 ElectricityDemandTexas = ElectricityDemandTexas_Main.TakeTimeSeries()
 
 #ElectricityDemandTexas.plot()
 
 
-#%% Write to csv
+#%% write to csv
 
 ElectricityDemandTexas.reset_index().to_csv('Electricity_Demand_Texas_data.csv', index=False)
