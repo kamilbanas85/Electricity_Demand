@@ -78,7 +78,7 @@ So, based of above as predictors are used fllowed variables:
 
 Models were fitted on data set beginning from 2015-07. A time period before Covid-19 was investigated, because lockdowns influence load profile (https://www.eia.gov/todayinenergy/detail.php?id=43295#tab1), so it requires additional consideration.
 
-A summer and winter load profiles differs and models predicted those two region with diffrent accuracy, so a two test set were used to evaluate moldes. First, a model was trained to data till '2019-09' and tested on six month period to '2020-03' to cover a winter load profile. A second train set cover data to '2019-02' and a test set till '2019-08', what covers a summer time.    
+A summer and winter load profiles differs and models predicted those two region with diffrent accuracy, so a two test set were used to evaluate moldes. First, a model was trained to data till '2019-09' and tested on six month period to '2020-03' to cover a winter load profile. A second train set contains data to '2019-02' and a test set till '2019-08', what covers a summer time.    
 
     
 ## Few models were conidered:
@@ -89,7 +89,38 @@ A summer and winter load profiles differs and models predicted those two region 
 - drzewa
     
 ## Results:
+  
+  ### The Linear Regression model:
+    I test set ( summer time):
+      R2_adj: 0.81
+      MAE:  2670.2
+      MAPE: 6.49
     
-   
+    II test set ( winter time):
+      R2_adj: 0.8858
+      MAE:  2497.61
+      MAPE: 5.9
+    
+  ### The ARDL model:
+    I test set ( summer time):
+      R2_adj: 0.8795
+      MAE:  1934.6
+      MAPE: 4.72
+    
+    II test set ( winter time):
+      R2_adj: 0.9316
+      MAE:  1780.18
+      MAPE: 4.1
+  
+   ### The ANN model:
+    I test set ( summer time):
+      R2_adj: 0.8685
+      MAE:  2000.5
+      MAPE: 4.89
+    
+    II test set ( winter time):
+      R2_adj: 0.923
+      MAE:  1894.15
+      MAPE: 4.47  
 
     
