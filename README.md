@@ -74,15 +74,18 @@ So, based of above as predictors are used fllowed variables:
     The Dallas Fed Manufacturing Index data were fetched from Investing.com using 'investpy' python library.  
     The script: https://github.com/kamilbanas85/Electricity_Demand/blob/main/Data_Collection/A5_Read_Dallas_Fed_Manufacturing_Index.py
 
+### Data Preparation:
+
+The data preparation: filling NAs, adjustment frequency to 'H', and merging different data sets are presented in:    https://github.com/kamilbanas85/Electricity_Demand/blob/main/Prepare_Predictors.ipynb   
+  
+    
 ## Time period:
 
 Models were fitted on data set beginning from 2015-07. A time period before Covid-19 was investigated, because lockdowns influence load profile (https://www.eia.gov/todayinenergy/detail.php?id=43295#tab1), so it requires additional consideration.
 
 A summer and winter load profiles differs and models predicted those two region with diffrent accuracy, so a two test set were used to evaluate moldes. First, a model was trained to data till '2019-09' and tested on six month period to '2020-03' to cover a winter load profile. A second train set contains data to '2019-02' and a test set till '2019-08', what covers a summer time.    
 
-### Data Preparation:
 
-The data preparation: filling NAs, adjustment frequency to 'H', and merging different data sets are presented in:    https://github.com/kamilbanas85/Electricity_Demand/blob/main/Prepare_Predictors.ipynb
     
     
     
