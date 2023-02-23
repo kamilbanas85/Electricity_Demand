@@ -80,6 +80,11 @@ Models were fitted on data set beginning from 2015-07. A time period before Covi
 
 A summer and winter load profiles differs and models predicted those two region with diffrent accuracy, so a two test set were used to evaluate moldes. First, a model was trained to data till '2019-09' and tested on six month period to '2020-03' to cover a winter load profile. A second train set contains data to '2019-02' and a test set till '2019-08', what covers a summer time.    
 
+### Data Preparation:
+
+The data preparation: filling NAs, adjustment frequency to 'H', and merging different data sets are presented in:    https://github.com/kamilbanas85/Electricity_Demand/blob/main/Prepare_Predictors.ipynb
+    
+    
     
 ## Few models were conidered:
 - Linear Regression
