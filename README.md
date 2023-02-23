@@ -98,6 +98,7 @@ A summer and winter load profiles differs and models predicted those two region 
     
 ## Results:
   
+    
   ### The Linear Regression model:
     I test set ( summer time):
       R2_adj: 0.81
@@ -131,4 +132,10 @@ A summer and winter load profiles differs and models predicted those two region 
       MAE:  1894.15
       MAPE: 4.47  
 
+All considered models obtained quiet good scores on test sets. The Linear Regression model got lowest scores among considered models. A residuals from that model showed some drawbacks, especially high autocorrelation, so ARDL model was consider, which included lag from both exaplanatory and respond variables. Application a ARDL model improved scores on test sets in comparition to the Linear Regression model. Then ANN model was considered, which incomporates interaction between variables and a non-linearity. The score MAE, and MAPE scores obtained by this model were also better than the Linear Regression model, however a little worse than the ARDL.    
     
+Detailed fitting models procedure and obtained results are presented in sciprts:  
+- https://github.com/kamilbanas85/Electricity_Demand/blob/main/01_Linear_Regression.ipynb
+- https://github.com/kamilbanas85/Electricity_Demand/blob/main/02_ARDL.ipynb   
+- https://github.com/kamilbanas85/Electricity_Demand/blob/main/03_ANN.ipynb
+ 
