@@ -1,7 +1,7 @@
 # Electricity Demand Forecasting for Texas
 
 ## About
-A project presents forecasting an electricity demand in Texas. A focuse was made on a XshortXlongX-term horizont. A muliple regresion models approach were used with few independent variables.
+The project presents forecasting an electricity demand in Texas with 1h frequency data. A focuse was made on a medium-term horizont (6 months). A muliple regresion models approach were used with few explanatory variables.
 
 ## Predcitors
 
@@ -15,7 +15,7 @@ Fig. Electricity demand daily profile according with season (Source: https://lea
 <p align="center">
     <img src="https://user-images.githubusercontent.com/53495965/211203111-c5ac464b-cd38-4c80-9430-5dcb941981c9.png" width=50% height=50%>
     
-Fig. Comparison of daily load profiles for year seasons.
+Fig. Comparison of daily load profiles for a year seasons.
 
 A electricity usage in residential starts increasing in the morning around 5 a.m. People begin getting ready for work and school and, on a cold morning, turn the heat up, turn on the hot water or turn on the coffee maker. In the winter, usage typically declines between 8 a.m. and 5 p.m. once buildings have warmed up and outside temperatures begin to rise. During a summer peple turn on air-condition. At 5 p.m., when people are getting home, there is another spike in energy use as lights and appliances are turned on at multiple homes and outside temperatures decrease as the sun sets. Load starts dropping off again when people power down to go to bed for the night.
 
@@ -73,8 +73,10 @@ So, based of above as predictors are used fllowed variables:
 
     The Dallas Fed Manufacturing Index data were fetched from Investing.com using 'investpy' python library.  
     The script: https://github.com/kamilbanas85/Electricity_Demand/blob/main/Data_Collection/A5_Read_Dallas_Fed_Manufacturing_Index.py
-    
-## Forecast were divided for 2 period:
+
+## Test set were divided for 2 period:
+Models were prepared and tested for data before Covid-19, becouse lockdowns influece load prifile (https://www.eia.gov/todayinenergy/detail.php?id=43295#tab1), so it requires additional consideration.
+ 
 - pred Covid time
 - post Covid (indlucid Covid time in training)
 
@@ -86,5 +88,5 @@ So, based of above as predictors are used fllowed variables:
 - drzewa
     
     - Covid prifile
-https://www.eia.gov/todayinenergy/detail.php?id=43295#tab1
+
     
