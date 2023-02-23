@@ -46,47 +46,50 @@ So, based of above as predictors are used fllowed variables:
 - Datetime indicatores: hour, day, week, month, working day
 
 
-## Data Sources:
-- ### Electricity Demand in Texas:
+### Data Sources:
+- #### Electricity Demand in Texas:
 
     The Demand data for Texas were fetched from EIA using API (https://www.eia.gov/opendata/v1/qb.php?category=3389948&sdid=EBA.TEX-ALL.D.H).  
     The script: https://github.com/kamilbanas85/Electricity_Demand/blob/main/Data_Collection/A2_Read_Data_Electricty_Demand.py 
 
-- ### Wether:
+- #### Wether:
 
     The Wether data were fetched from Open Meteo web using API (https://open-meteo.com/).  
     The script: https://github.com/kamilbanas85/Electricity_Demand/blob/main/Data_Collection/A3_Read_API_Weather_OpenMeteo.py
 
-- ### Real GPD:
+- #### Real GPD:
 
     The Real Gross Domestic Product (All Industry Total in Texas) data were fetched from Federal Reserve Economic Data (FRED) using API (https://fred.stlouisfed.org/series/TXRQGSP).  
     The script: https://github.com/kamilbanas85/Electricity_Demand/blob/main/Data_Collection/A4_Read_API_Teaxas_GDP_and_Population.py
 
 
-- ### Population:
+- #### Population:
 
     The Population in Texas data were fetched from Federal Reserve Economic Data (FRED) using API (https://fred.stlouisfed.org/series/TXPOP).  
     The script: https://github.com/kamilbanas85/Electricity_Demand/blob/main/Data_Collection/A4_Read_API_Teaxas_GDP_and_Population.py
 
 
-- ### Dallas Fed Manufacturing Index:
+- #### Dallas Fed Manufacturing Index:
 
     The Dallas Fed Manufacturing Index data were fetched from Investing.com using 'investpy' python library.  
     The script: https://github.com/kamilbanas85/Electricity_Demand/blob/main/Data_Collection/A5_Read_Dallas_Fed_Manufacturing_Index.py
 
-## Test set were divided for 2 period:
-Models were prepared and tested for data before Covid-19, becouse lockdowns influece load prifile (https://www.eia.gov/todayinenergy/detail.php?id=43295#tab1), so it requires additional consideration.
- 
-- pred Covid time
-- post Covid (indlucid Covid time in training)
+## Time period:
 
+Models were fitted on data set beginning from 2015-07. A time period before Covid-19 was investigated, because lockdowns influence load profile (https://www.eia.gov/todayinenergy/detail.php?id=43295#tab1), so it requires additional consideration.
+
+A summer and winter load profiles differs and models predicted those two region with diffrent accuracy, so a two test set were used to evaluate moldes. First, a model was trained to data till '2019-09' and tested on six month period to '2020-03' to cover a winter load profile. A second train set cover data to '2019-02' and a test set till '2019-08', what covers a summer time.    
+
+    
 ## Few models were conidered:
 - Linear Regression
-- ADL
+- ARDL
 - ANN
 - SVM
 - drzewa
     
-    - Covid prifile
+## Results:
+    
+   
 
     
